@@ -5,7 +5,7 @@ The algorithm is based on statistical mechanics and, indeed, it is a stochastic 
 
 The travelling salesman problem is a typical problem we can solve using the simulated annealing algorithm. The problem is to find the shortest CLOSED path that connects N cities to visit. In this case the cost function is the path lenght and, if N is large, it has a complex shape. As in statistical mechanics we are interested to find the ground state of the system (that is the system with the lower energy), in the travelling salesman problem we want to find the shortest path. So referring to a physical system, the possible paths are the states of the system and the path lenght is the energy of the state.
 
-See the references to better understand the algorithm and some convergence criteria used in this project.
+See the references to better understand the algorithm and the convergence criteria used in this project.
 
 ## The project
 In this project we choose 100 random cities around the world. You can use the dataset you prefer, you only need to have the coordinates for each cities: [kaggle](https://www.kaggle.com/datasets?search=world+cities+database) offer some of these dataset. Since we are moving on the earth surface, the distance between cities is the geodetic distance. Clearly this code can also be used to found the minimum path in a plane by replacing the geodetic distance with the Euclidean one.
