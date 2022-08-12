@@ -1,5 +1,5 @@
 # Simulated annealing: the travelling salesman problem
-The simulated annealing algorithm is an optimization algorithm. Let's suppose to have a complex cost function you want to mninimize with many independent discrete variables. This is not an easy taks and all exact methods known require too much time.
+The simulated annealing algorithm is an optimization algorithm. Let's suppose to have a complex cost function you want to minimize with many independent discrete variables. This is not an easy taks and all exact methods known require too much time.
 The simulated annealing algorithm is an alternative of these methods and allow us to reach a solution within a reasonable time.
 The algorithm is based on statistical mechanics and, indeed, it is a stochastic algorithm. This implies that at the end of the algorithm we can't be sure to have reached the global minimum of the cost function. However it gives very good results in a limited time.
 
