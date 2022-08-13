@@ -1,6 +1,6 @@
 # Simulated annealing: the travelling salesman problem
 The simulated annealing algorithm is an optimization algorithm. Let's suppose to have a complex cost function you want to minimize with many independent discrete variables. This is not an easy taks and all exact methods known require too much time.
-The simulated annealing algorithm is an alternative of these methods and allow us to reach a solution within a reasonable time.
+The simulated annealing algorithm is an alternative to these methods and allow us to reach a solution within a reasonable time.
 The algorithm is based on statistical mechanics and, indeed, it is a stochastic algorithm. This implies that at the end of the algorithm we can't be sure to have reached the global minimum of the cost function. However it gives very good results in a limited time.
 
 The travelling salesman problem is a typical problem we can solve using the simulated annealing algorithm. The problem is to find the shortest CLOSED path that connects N cities to visit. In this case the cost function is the path lenght and, if N is large, it has a complex shape. As in statistical mechanics we are interested to find the ground state of the system (that is the system with the lower energy), in the travelling salesman problem we want to find the shortest path. So referring to a physical system, the possible paths are the states of the system and the path lenght is the energy of the state.
