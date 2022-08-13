@@ -18,6 +18,7 @@ The following figure shows 100 random cities (the black circle) and the shortest
 ## Packages
 * numpy
 * cartopy
+* geopy
 
 
 ## References
